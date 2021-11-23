@@ -43,6 +43,10 @@ public class ZipUtils {
 
         List<String> fileNames = new LinkedList<>();
         getFiles(fileNames, folderPath);
+        if (fileNames.isEmpty()) {
+            LOGGER.warn("there is no file in" + folderPath);
+            return null;
+        }
         for (String file : fileNames) {
             if (StringUtils.isBlank(zip(file, zipFilePath, password, true))) {
                 LOGGER.error("add file:" + file + " to zipFile:" + zipFilePath + " failed");
@@ -115,7 +119,7 @@ public class ZipUtils {
     }
 
     public static void main(String[] args) throws ZipException {
-        String folder = "Z:\\IDEA Project\\tools\\utils\\src\\main\\java\\cn\\peng\\files";
+        String folder = "Z:\\IDEA Project\\tools\\utils\\src\\main\\java\\cn\\peng\\file";
         String zipFile = "Z:\\IDEA Project\\tools\\utils\\src\\main\\java\\cn\\peng\\weiyupeng.zip";
         zipFolder(folder, zipFile, "123");
     }
