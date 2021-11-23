@@ -118,9 +118,12 @@ public class ZipUtils {
         return zipFilePath;
     }
 
+    /**
+     * test
+     */
     public static void main(String[] args) throws ZipException {
-        String folder = "Z:\\IDEA Project\\tools\\utils\\src\\main\\java\\cn\\peng\\file";
-        String zipFile = "Z:\\IDEA Project\\tools\\utils\\src\\main\\java\\cn\\peng\\weiyupeng.zip";
-        zipFolder(folder, zipFile, "123");
+        String folder = "Z:\\IDEA Project\\tools\\utils\\src\\main\\resources\\files";
+        String zipFile = "Z:\\IDEA Project\\tools\\utils\\src\\main\\resources\\output\\weiyupeng.zip";
+        System.out.println(zipFolder(folder, zipFile, "123"));
     }
 }
