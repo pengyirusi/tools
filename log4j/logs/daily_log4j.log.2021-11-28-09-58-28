@@ -1,0 +1,10 @@
+2021-11-28 09:58:28,733 [main] ERROR cn.peng.slf4j.Slf4jTest - error
+2021-11-28 09:58:28,734 [main] WARN cn.peng.slf4j.Slf4jTest - warn
+2021-11-28 09:58:28,734 [main] INFO cn.peng.slf4j.Slf4jTest - info
+2021-11-28 09:58:28,735 [main] DEBUG cn.peng.slf4j.Slf4jTest - debug
+2021-11-28 09:58:28,735 [main] TRACE cn.peng.slf4j.Slf4jTest - trace
+2021-11-28 09:58:28,736 [main] INFO cn.peng.slf4j.Slf4jTest - profile:weiyupeng,25
+2021-11-28 09:58:28,736 [main] ERROR cn.peng.slf4j.Slf4jTest - 出现异常：
+java.lang.ArithmeticException: / by zero
+	at cn.peng.slf4j.Slf4jTest.test1(Slf4jTest.java:35)
+	at cn.peng.slf4j.Slf4jTest.main(Slf4jTest.java:15)

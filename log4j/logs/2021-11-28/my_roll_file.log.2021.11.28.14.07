@@ -1,0 +1,9 @@
+2021-11-28 14:07:50,589 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - error
+2021-11-28 14:07:50,591 [main] WARN cn.peng.slf4jLog4j2.Slf4jLog4j2 - warn
+2021-11-28 14:07:50,591 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - info
+2021-11-28 14:07:50,592 [main] DEBUG cn.peng.slf4jLog4j2.Slf4jLog4j2 - debug
+2021-11-28 14:07:50,593 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - profile:weiyupeng,25
+2021-11-28 14:07:50,593 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - 出现异常：
+java.lang.ArithmeticException: / by zero
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.test1(Slf4jLog4j2.java:31) [classes/:?]
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.main(Slf4jLog4j2.java:14) [classes/:?]

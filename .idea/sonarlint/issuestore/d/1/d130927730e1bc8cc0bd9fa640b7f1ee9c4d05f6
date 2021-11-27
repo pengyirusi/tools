@@ -1,0 +1,37 @@
+
+a	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ8¢™ï‹Ö/
+G	Web:S1827"+Remove this deprecated "bgcolor" attribute.(×Ï¥œ8¢™ï‹Ö/
+D	Web:S1827"(Remove this deprecated "size" attribute.(İÃÒ8¢™ï‹Ö/
+G	Web:S1827"+Remove this deprecated "noshade" attribute.(İÃÒ8¢™ï‹Ö/
+TWeb:TableWithoutCaptionCheck" Add a description to this table.(ŠˆïŒùÿÿÿÿ8¢™ï‹Ö/
+P	Web:S1827"/Remove this deprecated "cellspacing" attribute.(ŠˆïŒùÿÿÿÿ8¢™ï‹Ö/
+P	Web:S1827"/Remove this deprecated "cellpadding" attribute.(ŠˆïŒùÿÿÿÿ8£™ï‹Ö/
+P	Web:S1827"/Remove this deprecated "bordercolor" attribute.(ŠˆïŒùÿÿÿÿ8£™ï‹Ö/
+J	Web:S1827")Remove this deprecated "width" attribute.(ŠˆïŒùÿÿÿÿ8£™ï‹Ö/
+n Web:TableHeaderHasIdOrScopeCheck";Add either an 'id' or a 'scope' attribute to this <th> tag.(ŠşÓÜ8£™ï‹Ö/
+n Web:TableHeaderHasIdOrScopeCheck";Add either an 'id' or a 'scope' attribute to this <th> tag.(ØØóí8£™ï‹Ö/
+s Web:TableHeaderHasIdOrScopeCheck";Add either an 'id' or a 'scope' attribute to this <th> tag.(€¢®·ûÿÿÿÿ8£™ï‹Ö/
+s Web:TableHeaderHasIdOrScopeCheck";Add either an 'id' or a 'scope' attribute to this <th> tag.(íü´ıÿÿÿÿ8£™ï‹Ö/
+n Web:TableHeaderHasIdOrScopeCheck";Add either an 'id' or a 'scope' attribute to this <th> tag.(Ü·‡æ8£™ï‹Ö/
+]Web:UnsupportedTagsInHtml5Check$"&Remove this deprecated "font" element.(‚™»¸ûÿÿÿÿ8£™ï‹Ö/
+]Web:UnsupportedTagsInHtml5Check,"&Remove this deprecated "font" element.(âöÉêøÿÿÿÿ8£™ï‹Ö/
+]Web:UnsupportedTagsInHtml5Check4"&Remove this deprecated "font" element.(óÑ«Äüÿÿÿÿ8£™ï‹Ö/
+]Web:UnsupportedTagsInHtml5CheckD"&Remove this deprecated "font" element.(³ø¯ñÿÿÿÿÿ8£™ï‹Ö/
+a	Web:S5254Q"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ8£™ï‹Ö/
+G	Web:S1827["+Remove this deprecated "bgcolor" attribute.(×Ï¥œ8£™ï‹Ö/
+D	Web:S1827\"(Remove this deprecated "size" attribute.(İÃÒ8£™ï‹Ö/
+G	Web:S1827\"+Remove this deprecated "noshade" attribute.(İÃÒ8£™ï‹Ö/
+TWeb:TableWithoutCaptionCheck_" Add a description to this table.(ŠˆïŒùÿÿÿÿ8£™ï‹Ö/
+P	Web:S1827_"/Remove this deprecated "cellspacing" attribute.(ŠˆïŒùÿÿÿÿ8£™ï‹Ö/
+P	Web:S1827_"/Remove this deprecated "cellpadding" attribute.(ŠˆïŒùÿÿÿÿ8£™ï‹Ö/
+P	Web:S1827_"/Remove this deprecated "bordercolor" attribute.(ŠˆïŒùÿÿÿÿ8¤™ï‹Ö/
+J	Web:S1827_")Remove this deprecated "width" attribute.(ŠˆïŒùÿÿÿÿ8¤™ï‹Ö/
+n Web:TableHeaderHasIdOrScopeChecka";Add either an 'id' or a 'scope' attribute to this <th> tag.(ŠşÓÜ8¤™ï‹Ö/
+n Web:TableHeaderHasIdOrScopeCheckb";Add either an 'id' or a 'scope' attribute to this <th> tag.(ØØóí8¤™ï‹Ö/
+s Web:TableHeaderHasIdOrScopeCheckc";Add either an 'id' or a 'scope' attribute to this <th> tag.(€¢®·ûÿÿÿÿ8¤™ï‹Ö/
+s Web:TableHeaderHasIdOrScopeCheckd";Add either an 'id' or a 'scope' attribute to this <th> tag.(íü´ıÿÿÿÿ8¤™ï‹Ö/
+n Web:TableHeaderHasIdOrScopeChecke";Add either an 'id' or a 'scope' attribute to this <th> tag.(Ü·‡æ8¤™ï‹Ö/
+]Web:UnsupportedTagsInHtml5Checks"&Remove this deprecated "font" element.(‚™»¸ûÿÿÿÿ8¤™ï‹Ö/
+]Web:UnsupportedTagsInHtml5Check{"&Remove this deprecated "font" element.(âöÉêøÿÿÿÿ8¤™ï‹Ö/
+^Web:UnsupportedTagsInHtml5Checkƒ"&Remove this deprecated "font" element.(óÑ«Äüÿÿÿÿ8¤™ï‹Ö/
+^Web:UnsupportedTagsInHtml5Check“"&Remove this deprecated "font" element.(³ø¯ñÿÿÿÿÿ8¤™ï‹Ö/

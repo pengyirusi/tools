@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    status 日志框架本身的输出级别
+    monitorInterval 自动加载配置文件的间隔时间，不低于5秒
+-->
+<Configuration status="warn" monitorInterval="5">
+
+    <!--配置全局变量-->
+    <properties>
+        <property name="LOG_HOME">Z:\IDEA Project\tools\log4j\logs</property>
+    </properties>
+
+    <!--日志处理-->
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d [%t] %p %c - %m%n"/>
+        </Console>
+
+        <File name="file" fileName="${LOG_HOME}/my_file.log">
+            <PatternLayout pattern="%d [%t] %p %c - %m%n"/>
+        </File>
+
+        <!--随机读写流，性能提高-->
+        <RandomAccessFile name="accessFile" fileName="${LOG_HOME}/my_acc_file.log">
+            <PatternLayout pattern="%d [%t] %p %c - %m%n"/>
+        </RandomAccessFile>
+
+        <RollingFile name="rollingFile" fileName="${LOG_HOME}/my_roll_file.log"
+                     filePattern="${LOG_HOME}/$${date:yyyy-MM-dd}/my_roll_file.log.%d{yyyy.MM.dd.HH.mm}">
+            <!--日志级别过滤器-->
+            <ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="%d [%t] %p %c - %m%n"/>
+            <Policies>
+                <!--在系统启动时，触发拆分规则，生成一个新的日志文件-->
+                <OnStartupTriggeringPolicy/>
+                <!--按照文件大小进行拆分-->
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+                <!--按照时间节点拆分，规则根据 filePattern 定义-->
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <!--在同一个目录下，文件的个数限定为30个，超过进行覆盖-->
+            <DefaultRolloverStrategy max="30"/>
+        </RollingFile>
+
+        <Async name="Async">
+            <AppenderRef ref="file"/>
+        </Async>
+    </Appenders>
+
+    <!--logger 定义-->
+    <Loggers>
+        <!--使用 rootLogger 配置 日志级别 trace-->
+        <Root level="trace">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="file"/>
+            <AppenderRef ref="accessFile"/>
+            <AppenderRef ref="rollingFile"/>
+
+            <!--使用异步日志-->
+            <AppenderRef ref="Async"/>
+        </Root>
+
+        <!-- 自定义异步 logger 对象
+            includeLocation="false" 关闭行号信息
+            additivity="false" 不再继承 rootLogger 独享
+        -->
+        <AsyncLogger name="cn.peng" level="trace"
+                     includeLocation="false" additivity="false">
+            <AppenderRef ref="file"/>
+        </AsyncLogger>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,107 @@
+2021-11-28 13:43:19,049 [main] INFO cn.peng.log4j2.Log4j2Test - hello log4j2!
+2021-11-28 13:43:19,051 [main] FATAL cn.peng.log4j2.Log4j2Test - fatal
+2021-11-28 13:43:19,051 [main] ERROR cn.peng.log4j2.Log4j2Test - error
+2021-11-28 13:43:19,051 [main] WARN cn.peng.log4j2.Log4j2Test - warn
+2021-11-28 13:43:19,051 [main] INFO cn.peng.log4j2.Log4j2Test - info
+2021-11-28 13:43:19,051 [main] DEBUG cn.peng.log4j2.Log4j2Test - debug
+2021-11-28 13:43:19,051 [main] TRACE cn.peng.log4j2.Log4j2Test - trace
+2021-11-28 13:44:27,027 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - error
+2021-11-28 13:44:27,029 [main] WARN cn.peng.slf4jLog4j2.Slf4jLog4j2 - warn
+2021-11-28 13:44:27,029 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - info
+2021-11-28 13:44:27,030 [main] DEBUG cn.peng.slf4jLog4j2.Slf4jLog4j2 - debug
+2021-11-28 13:44:27,030 [main] TRACE cn.peng.slf4jLog4j2.Slf4jLog4j2 - trace
+2021-11-28 13:44:27,031 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - profile:weiyupeng,25
+2021-11-28 13:44:27,031 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - 出现异常：
+java.lang.ArithmeticException: / by zero
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.test1(Slf4jLog4j2.java:31) [classes/:?]
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.main(Slf4jLog4j2.java:14) [classes/:?]
+2021-11-28 13:48:20,996 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - error
+2021-11-28 13:48:20,998 [main] WARN cn.peng.slf4jLog4j2.Slf4jLog4j2 - warn
+2021-11-28 13:48:20,998 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - info
+2021-11-28 13:48:20,998 [main] DEBUG cn.peng.slf4jLog4j2.Slf4jLog4j2 - debug
+2021-11-28 13:48:20,998 [main] TRACE cn.peng.slf4jLog4j2.Slf4jLog4j2 - trace
+2021-11-28 13:48:20,999 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - profile:weiyupeng,25
+2021-11-28 13:48:20,999 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - 出现异常：
+java.lang.ArithmeticException: / by zero
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.test1(Slf4jLog4j2.java:31) [classes/:?]
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.main(Slf4jLog4j2.java:14) [classes/:?]
+2021-11-28 13:48:28,759 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - error
+2021-11-28 13:48:28,760 [main] WARN cn.peng.slf4jLog4j2.Slf4jLog4j2 - warn
+2021-11-28 13:48:28,760 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - info
+2021-11-28 13:48:28,760 [main] DEBUG cn.peng.slf4jLog4j2.Slf4jLog4j2 - debug
+2021-11-28 13:48:28,761 [main] TRACE cn.peng.slf4jLog4j2.Slf4jLog4j2 - trace
+2021-11-28 13:48:28,761 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - profile:weiyupeng,25
+2021-11-28 13:48:28,761 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - 出现异常：
+java.lang.ArithmeticException: / by zero
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.test1(Slf4jLog4j2.java:31) [classes/:?]
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.main(Slf4jLog4j2.java:14) [classes/:?]
+2021-11-28 14:03:10,697 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - error
+2021-11-28 14:03:10,700 [main] WARN cn.peng.slf4jLog4j2.Slf4jLog4j2 - warn
+2021-11-28 14:03:10,700 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - info
+2021-11-28 14:03:10,701 [main] DEBUG cn.peng.slf4jLog4j2.Slf4jLog4j2 - debug
+2021-11-28 14:03:10,701 [main] TRACE cn.peng.slf4jLog4j2.Slf4jLog4j2 - trace
+2021-11-28 14:03:10,702 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - profile:weiyupeng,25
+2021-11-28 14:03:10,702 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - 出现异常：
+java.lang.ArithmeticException: / by zero
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.test1(Slf4jLog4j2.java:31) [classes/:?]
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.main(Slf4jLog4j2.java:14) [classes/:?]
+2021-11-28 14:06:36,910 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - error
+2021-11-28 14:06:36,912 [main] WARN cn.peng.slf4jLog4j2.Slf4jLog4j2 - warn
+2021-11-28 14:06:36,918 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - info
+2021-11-28 14:06:36,918 [main] DEBUG cn.peng.slf4jLog4j2.Slf4jLog4j2 - debug
+2021-11-28 14:06:36,919 [main] TRACE cn.peng.slf4jLog4j2.Slf4jLog4j2 - trace
+2021-11-28 14:06:36,920 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - profile:weiyupeng,25
+2021-11-28 14:06:36,920 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - 出现异常：
+java.lang.ArithmeticException: / by zero
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.test1(Slf4jLog4j2.java:31) [classes/:?]
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.main(Slf4jLog4j2.java:14) [classes/:?]
+2021-11-28 14:07:08,177 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - error
+2021-11-28 14:07:08,180 [main] WARN cn.peng.slf4jLog4j2.Slf4jLog4j2 - warn
+2021-11-28 14:07:08,180 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - info
+2021-11-28 14:07:08,180 [main] DEBUG cn.peng.slf4jLog4j2.Slf4jLog4j2 - debug
+2021-11-28 14:07:08,180 [main] TRACE cn.peng.slf4jLog4j2.Slf4jLog4j2 - trace
+2021-11-28 14:07:08,181 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - profile:weiyupeng,25
+2021-11-28 14:07:08,181 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - 出现异常：
+java.lang.ArithmeticException: / by zero
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.test1(Slf4jLog4j2.java:31) [classes/:?]
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.main(Slf4jLog4j2.java:14) [classes/:?]
+2021-11-28 14:07:37,367 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - error
+2021-11-28 14:07:37,369 [main] WARN cn.peng.slf4jLog4j2.Slf4jLog4j2 - warn
+2021-11-28 14:07:37,369 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - info
+2021-11-28 14:07:37,370 [main] DEBUG cn.peng.slf4jLog4j2.Slf4jLog4j2 - debug
+2021-11-28 14:07:37,370 [main] TRACE cn.peng.slf4jLog4j2.Slf4jLog4j2 - trace
+2021-11-28 14:07:37,371 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - profile:weiyupeng,25
+2021-11-28 14:07:37,371 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - 出现异常：
+java.lang.ArithmeticException: / by zero
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.test1(Slf4jLog4j2.java:31) [classes/:?]
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.main(Slf4jLog4j2.java:14) [classes/:?]
+2021-11-28 14:07:50,589 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - error
+2021-11-28 14:07:50,591 [main] WARN cn.peng.slf4jLog4j2.Slf4jLog4j2 - warn
+2021-11-28 14:07:50,591 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - info
+2021-11-28 14:07:50,592 [main] DEBUG cn.peng.slf4jLog4j2.Slf4jLog4j2 - debug
+2021-11-28 14:07:50,592 [main] TRACE cn.peng.slf4jLog4j2.Slf4jLog4j2 - trace
+2021-11-28 14:07:50,593 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - profile:weiyupeng,25
+2021-11-28 14:07:50,593 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - 出现异常：
+java.lang.ArithmeticException: / by zero
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.test1(Slf4jLog4j2.java:31) [classes/:?]
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.main(Slf4jLog4j2.java:14) [classes/:?]
+2021-11-28 14:08:35,546 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - error
+2021-11-28 14:08:35,548 [main] WARN cn.peng.slf4jLog4j2.Slf4jLog4j2 - warn
+2021-11-28 14:08:35,548 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - info
+2021-11-28 14:08:35,548 [main] DEBUG cn.peng.slf4jLog4j2.Slf4jLog4j2 - debug
+2021-11-28 14:08:35,548 [main] TRACE cn.peng.slf4jLog4j2.Slf4jLog4j2 - trace
+2021-11-28 14:08:35,549 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - profile:weiyupeng,25
+2021-11-28 14:08:35,550 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - 出现异常：
+java.lang.ArithmeticException: / by zero
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.test1(Slf4jLog4j2.java:31) [classes/:?]
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.main(Slf4jLog4j2.java:14) [classes/:?]
+2021-11-28 14:09:06,933 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - error
+2021-11-28 14:09:06,936 [main] WARN cn.peng.slf4jLog4j2.Slf4jLog4j2 - warn
+2021-11-28 14:09:06,936 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - info
+2021-11-28 14:09:06,936 [main] DEBUG cn.peng.slf4jLog4j2.Slf4jLog4j2 - debug
+2021-11-28 14:09:06,937 [main] TRACE cn.peng.slf4jLog4j2.Slf4jLog4j2 - trace
+2021-11-28 14:09:06,938 [main] INFO cn.peng.slf4jLog4j2.Slf4jLog4j2 - profile:weiyupeng,25
+2021-11-28 14:09:06,938 [main] ERROR cn.peng.slf4jLog4j2.Slf4jLog4j2 - 出现异常：
+java.lang.ArithmeticException: / by zero
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.test1(Slf4jLog4j2.java:31) [classes/:?]
+	at cn.peng.slf4jLog4j2.Slf4jLog4j2.main(Slf4jLog4j2.java:14) [classes/:?]
