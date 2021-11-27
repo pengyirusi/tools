@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-11-27T19:16:36</date>
+  <millis>1638011796315</millis>
+  <sequence>0</sequence>
+  <logger>cn.peng.jul.JULTest</logger>
+  <level>SEVERE</level>
+  <class>cn.peng.jul.JULTest</class>
+  <method>test2</method>
+  <thread>1</thread>
+  <message>severe</message>
+</record>
+<record>
+  <date>2021-11-27T19:16:36</date>
+  <millis>1638011796366</millis>
+  <sequence>1</sequence>
+  <logger>cn.peng.jul.JULTest</logger>
+  <level>WARNING</level>
+  <class>cn.peng.jul.JULTest</class>
+  <method>test2</method>
+  <thread>1</thread>
+  <message>warning</message>
+</record>
+<record>
+  <date>2021-11-27T19:16:36</date>
+  <millis>1638011796366</millis>
+  <sequence>2</sequence>
+  <logger>cn.peng.jul.JULTest</logger>
+  <level>INFO</level>
+  <class>cn.peng.jul.JULTest</class>
+  <method>test2</method>
+  <thread>1</thread>
+  <message>info</message>
+</record>
+<record>
+  <date>2021-11-27T19:16:36</date>
+  <millis>1638011796367</millis>
+  <sequence>3</sequence>
+  <logger>cn.peng.jul.JULTest</logger>
+  <level>CONFIG</level>
+  <class>cn.peng.jul.JULTest</class>
+  <method>test2</method>
+  <thread>1</thread>
+  <message>config</message>
+</record>
+<record>
+  <date>2021-11-27T19:16:36</date>
+  <millis>1638011796367</millis>
+  <sequence>4</sequence>
+  <logger>cn.peng.jul.JULTest</logger>
+  <level>FINE</level>
+  <class>cn.peng.jul.JULTest</class>
+  <method>test2</method>
+  <thread>1</thread>
+  <message>fine</message>
+</record>
+<record>
+  <date>2021-11-27T19:16:36</date>
+  <millis>1638011796368</millis>
+  <sequence>5</sequence>
+  <logger>cn.peng.jul.JULTest</logger>
+  <level>FINER</level>
+  <class>cn.peng.jul.JULTest</class>
+  <method>test2</method>
+  <thread>1</thread>
+  <message>finer</message>
+</record>
+<record>
+  <date>2021-11-27T19:16:36</date>
+  <millis>1638011796368</millis>
+  <sequence>6</sequence>
+  <logger>cn.peng.jul.JULTest</logger>
+  <level>FINEST</level>
+  <class>cn.peng.jul.JULTest</class>
+  <method>test2</method>
+  <thread>1</thread>
+  <message>finest</message>
+</record>
+</log>
